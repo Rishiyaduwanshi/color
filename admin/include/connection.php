@@ -1,5 +1,5 @@
 <?php
-$con = @mysqli_connect('localhost', 'root', '', 'color');
+$con = @mysqli_connect('localhost', 'root', 'WPy7QEh64Du+', 'color');  
 
 if (!$con) {
     echo "Error: " . mysqli_connect_error();

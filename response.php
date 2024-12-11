@@ -2,7 +2,7 @@
 ob_start();
 
 session_start();
-$con = @mysqli_connect('localhost', 'colorslife', 'Kapil@123', 'colorslife');
+$con = @mysqli_connect('localhost', 'root', 'WPy7QEh64Du+', 'color');
 if (!$con) {
     echo "Error: " . mysqli_connect_error();
 	exit();
